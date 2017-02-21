@@ -298,7 +298,7 @@ c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_launch_pa
 c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\vector_types.h
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\cuda_runtime.h
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\device_launch_parameters.h
-c:\users\henry\desktop\nueva carpeta - copia\parle-cuda-master\parle\helper_timer.h
+c:\users\henry\documents\visual studio 2013\projects\parle\parle\helper_timer.h
 C:\Program Files (x86)\Windows Kits\8.1\Include\um\windows.h
 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winapifamily.h
 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\sdkddkver.h
@@ -508,11 +508,11 @@ C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstdio
 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h
 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\swprintf.inl
-c:\users\henry\desktop\nueva carpeta - copia\parle-cuda-master\parle\helper_cuda.h
+c:\users\henry\documents\visual studio 2013\projects\parle\parle\helper_cuda.h
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\cuda_runtime.h
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\device_launch_parameters.h
-c:\users\henry\desktop\nueva carpeta - copia\parle-cuda-master\parle\hemi/grid_stride_range.h
-c:\users\henry\desktop\nueva carpeta - copia\parle-cuda-master\parle\hemi\range/range.hpp
+c:\users\henry\documents\visual studio 2013\projects\parle\parle\hemi/grid_stride_range.h
+c:\users\henry\documents\visual studio 2013\projects\parle\parle\hemi\range/range.hpp
 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator
 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\istream
 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ostream
@@ -583,38 +583,53 @@ C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cerrno
 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\errno.h
 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\share.h
-c:\users\henry\desktop\nueva carpeta - copia\parle-cuda-master\parle\hemi\hemi.h
-c:\users\henry\desktop\nueva carpeta - copia\parle-cuda-master\parle\hemi\hemi_error.h
+c:\users\henry\documents\visual studio 2013\projects\parle\parle\hemi\hemi.h
+c:\users\henry\documents\visual studio 2013\projects\parle\parle\hemi\hemi_error.h
 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\assert.h
 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\cuda_runtime_api.h
-c:\users\henry\desktop\nueva carpeta - copia\parle-cuda-master\parle\hemi\device_api.h
-c:\users\henry\desktop\nueva carpeta - copia\parle-cuda-master\parle\hemi/launch.h
-c:\users\henry\desktop\nueva carpeta - copia\parle-cuda-master\parle\hemi\kernel.h
+c:\users\henry\documents\visual studio 2013\projects\parle\parle\hemi\device_api.h
+c:\users\henry\documents\visual studio 2013\projects\parle\parle\hemi/launch.h
+c:\users\henry\documents\visual studio 2013\projects\parle\parle\hemi\kernel.h
 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\assert.h
 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-c:\users\henry\desktop\nueva carpeta - copia\parle-cuda-master\parle\hemi\launch.inl
-c:\users\henry\desktop\nueva carpeta - copia\parle-cuda-master\parle\hemi\configure.h
-c:\users\henry\desktop\nueva carpeta - copia\parle-cuda-master\parle\hemi\execution_policy.h
+c:\users\henry\documents\visual studio 2013\projects\parle\parle\hemi\launch.inl
+c:\users\henry\documents\visual studio 2013\projects\parle\parle\hemi\configure.h
+c:\users\henry\documents\visual studio 2013\projects\parle\parle\hemi\execution_policy.h
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\cuda_occupancy.h
-c:\users\henry\desktop\nueva carpeta - copia\parle-cuda-master\parle\chag/pp/prefix.cuh
-c:\users\henry\desktop\nueva carpeta - copia\parle-cuda-master\parle\chag\pp\ext/common.cuh
-c:\users\henry\desktop\nueva carpeta - copia\parle-cuda-master\parle\chag\pp\ext\detail/common.cu.inl
-c:\users\henry\desktop\nueva carpeta - copia\parle-cuda-master\parle\chag\pp\ext/range.cuh
-c:\users\henry\desktop\nueva carpeta - copia\parle-cuda-master\parle\chag\pp\ext\traits.cuh
-c:\users\henry\desktop\nueva carpeta - copia\parle-cuda-master\parle\chag\pp\ext\unit.cuh
-c:\users\henry\desktop\nueva carpeta - copia\parle-cuda-master\parle\chag\pp\ext\setup.cuh
-c:\users\henry\desktop\nueva carpeta - copia\parle-cuda-master\parle\chag\pp\ext\../detail/nta.hpp
-c:\users\henry\desktop\nueva carpeta - copia\parle-cuda-master\parle\chag\pp\ext\detail/setup.cu.inl
-c:\users\henry\desktop\nueva carpeta - copia\parle-cuda-master\parle\chag\pp\ext\shared.cuh
-c:\users\henry\desktop\nueva carpeta - copia\parle-cuda-master\parle\chag\pp\ext\detail/shared.cu.inl
-c:\users\henry\desktop\nueva carpeta - copia\parle-cuda-master\parle\chag\pp\ext\../aspect/operators.cuh
-c:\users\henry\desktop\nueva carpeta - copia\parle-cuda-master\parle\chag\pp\ext\detail/unit.cu.inl
-c:\users\henry\desktop\nueva carpeta - copia\parle-cuda-master\parle\chag\pp\ext\detail/range.cu.inl
-c:\users\henry\desktop\nueva carpeta - copia\parle-cuda-master\parle\chag\pp\detail/buffer.cuh
-c:\users\henry\desktop\nueva carpeta - copia\parle-cuda-master\parle\chag\pp\aspect/predicates.cuh
-c:\users\henry\desktop\nueva carpeta - copia\parle-cuda-master\parle\chag\pp\detail/prefix.cu.inl
-c:\users\henry\desktop\nueva carpeta - copia\parle-cuda-master\parle\chag/pp/reduce.cuh
-c:\users\henry\desktop\nueva carpeta - copia\parle-cuda-master\parle\chag\pp\detail/reduce.cu.inl
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\map
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtree
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tuple
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\mutex
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\thr/xthread
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\thr/xthrcommon.h
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\thr/xtime
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\thr/xtimec.h
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\thr/xthreads.h
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdint.h
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\functional
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xfunctional
+c:\users\henry\documents\visual studio 2013\projects\parle\parle\chag/pp/prefix.cuh
+c:\users\henry\documents\visual studio 2013\projects\parle\parle\chag\pp\ext/common.cuh
+c:\users\henry\documents\visual studio 2013\projects\parle\parle\chag\pp\ext\detail/common.cu.inl
+c:\users\henry\documents\visual studio 2013\projects\parle\parle\chag\pp\ext/range.cuh
+c:\users\henry\documents\visual studio 2013\projects\parle\parle\chag\pp\ext\traits.cuh
+c:\users\henry\documents\visual studio 2013\projects\parle\parle\chag\pp\ext\unit.cuh
+c:\users\henry\documents\visual studio 2013\projects\parle\parle\chag\pp\ext\setup.cuh
+c:\users\henry\documents\visual studio 2013\projects\parle\parle\chag\pp\ext\../detail/nta.hpp
+c:\users\henry\documents\visual studio 2013\projects\parle\parle\chag\pp\ext\detail/setup.cu.inl
+c:\users\henry\documents\visual studio 2013\projects\parle\parle\chag\pp\ext\shared.cuh
+c:\users\henry\documents\visual studio 2013\projects\parle\parle\chag\pp\ext\detail/shared.cu.inl
+c:\users\henry\documents\visual studio 2013\projects\parle\parle\chag\pp\ext\../aspect/operators.cuh
+c:\users\henry\documents\visual studio 2013\projects\parle\parle\chag\pp\ext\detail/unit.cu.inl
+c:\users\henry\documents\visual studio 2013\projects\parle\parle\chag\pp\ext\detail/range.cu.inl
+c:\users\henry\documents\visual studio 2013\projects\parle\parle\chag\pp\detail/buffer.cuh
+c:\users\henry\documents\visual studio 2013\projects\parle\parle\chag\pp\aspect/predicates.cuh
+c:\users\henry\documents\visual studio 2013\projects\parle\parle\chag\pp\detail/prefix.cu.inl
+c:\users\henry\documents\visual studio 2013\projects\parle\parle\chag/pp/reduce.cuh
+c:\users\henry\documents\visual studio 2013\projects\parle\parle\chag\pp\detail/reduce.cu.inl
 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\conio.h
 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h

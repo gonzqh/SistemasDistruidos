@@ -1,32 +1,32 @@
-﻿Compilación iniciada a las 16/02/2017 11:27:31 a. m..
-     1>Proyecto "C:\Users\Henry\Desktop\Nueva carpeta - copia\parle-cuda-master\parle\parle.vcxproj" en el nodo 2 (Build destinos).
+﻿Compilación iniciada a las 20/02/2017 11:48:22 a. m..
+     1>Proyecto "C:\Users\Henry\Documents\Visual Studio 2013\Projects\parle\parle\parle.vcxproj" en el nodo 2 (Build destinos).
      1>AddCudaCompileDeps:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /D_DEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" /I. /FIcuda_runtime.h /c "C:\Users\Henry\Desktop\Nueva carpeta - copia\parle-cuda-master\parle\kernel.cu" 
-     1>El proyecto "C:\Users\Henry\Desktop\Nueva carpeta - copia\parle-cuda-master\parle\parle.vcxproj" (1) está compilando "C:\Users\Henry\Desktop\Nueva carpeta - copia\parle-cuda-master\parle\parle.vcxproj" (1:2) en el nodo 2 (CudaBuildCore destinos).
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /D_DEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" /I. /FIcuda_runtime.h /c "C:\Users\Henry\Documents\Visual Studio 2013\Projects\parle\parle\kernel.cu" 
+     1>El proyecto "C:\Users\Henry\Documents\Visual Studio 2013\Projects\parle\parle\parle.vcxproj" (1) está compilando "C:\Users\Henry\Documents\Visual Studio 2013\Projects\parle\parle\parle.vcxproj" (1:2) en el nodo 2 (CudaBuildCore destinos).
      1>CudaBuildCore:
          Compiling CUDA source file kernel.cu...
-         cmd.exe /C "C:\Users\Henry\AppData\Local\Temp\tmpd1d1c9e4af94491cb04a2c619210d4a3.cmd"
-         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o Debug\kernel.cu.obj "C:\Users\Henry\Desktop\Nueva carpeta - copia\parle-cuda-master\parle\kernel.cu"
+         cmd.exe /C "C:\Users\Henry\AppData\Local\Temp\tmp8c6cf4a49b9f492a86f3d4bea2d76c3d.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o Debug\kernel.cu.obj "C:\Users\Henry\Documents\Visual Studio 2013\Projects\parle\parle\kernel.cu"
          
-         C:\Users\Henry\Desktop\Nueva carpeta - copia\parle-cuda-master\parle>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o Debug\kernel.cu.obj "C:\Users\Henry\Desktop\Nueva carpeta - copia\parle-cuda-master\parle\kernel.cu" 
-     1>c:\users\henry\desktop\nueva carpeta - copia\parle-cuda-master\parle\helper_cuda.h(17): warning C4005: '_DEBUG' : redefinici¾n de macro
-     1>c:\users\henry\desktop\nueva carpeta - copia\parle-cuda-master\parle\helper_cuda.h(17): warning C4005: '_DEBUG' : redefinici¾n de macro
+         C:\Users\Henry\Documents\Visual Studio 2013\Projects\parle\parle>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o Debug\kernel.cu.obj "C:\Users\Henry\Documents\Visual Studio 2013\Projects\parle\parle\kernel.cu" 
+     1>c:\users\henry\documents\visual studio 2013\projects\parle\parle\helper_cuda.h(17): warning C4005: '_DEBUG' : redefinici¾n de macro
+     1>c:\users\henry\documents\visual studio 2013\projects\parle\parle\helper_cuda.h(17): warning C4005: '_DEBUG' : redefinici¾n de macro
      1>CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
          kernel.cu
-     1>Compilación del proyecto terminada "C:\Users\Henry\Desktop\Nueva carpeta - copia\parle-cuda-master\parle\parle.vcxproj" (CudaBuildCore destinos).
+     1>Compilación del proyecto terminada "C:\Users\Henry\Documents\Visual Studio 2013\Projects\parle\parle\parle.vcxproj" (CudaBuildCore destinos).
      1>Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Henry\Desktop\Nueva carpeta - copia\parle-cuda-master\Debug\parle.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Henry\Desktop\Nueva carpeta - copia\parle-cuda-master\Debug\parle.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Henry\Desktop\Nueva carpeta - copia\parle-cuda-master\Debug\parle.lib" /MACHINE:X86 Debug\kernel.cu.obj
-         parle.vcxproj -> C:\Users\Henry\Desktop\Nueva carpeta - copia\parle-cuda-master\Debug\parle.exe
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Henry\Documents\Visual Studio 2013\Projects\parle\Debug\parle.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Henry\Documents\Visual Studio 2013\Projects\parle\Debug\parle.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Henry\Documents\Visual Studio 2013\Projects\parle\Debug\parle.lib" /MACHINE:X86 Debug\kernel.cu.obj
+         parle.vcxproj -> C:\Users\Henry\Documents\Visual Studio 2013\Projects\parle\Debug\parle.exe
        PostBuildEvent:
-         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "C:\Users\Henry\Desktop\Nueva carpeta - copia\parle-cuda-master\Debug\"
-         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "C:\Users\Henry\Desktop\Nueva carpeta - copia\parle-cuda-master\Debug\"
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "C:\Users\Henry\Documents\Visual Studio 2013\Projects\parle\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "C:\Users\Henry\Documents\Visual Studio 2013\Projects\parle\Debug\"
          :VCEnd
-         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "C:\Users\Henry\Desktop\Nueva carpeta - copia\parle-cuda-master\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "C:\Users\Henry\Documents\Visual Studio 2013\Projects\parle\Debug\"
          C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart32_80.dll
          C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart64_80.dll
                  2 archivo(s) copiado(s).
-     1>Compilación del proyecto terminada "C:\Users\Henry\Desktop\Nueva carpeta - copia\parle-cuda-master\parle\parle.vcxproj" (Build destinos).
+     1>Compilación del proyecto terminada "C:\Users\Henry\Documents\Visual Studio 2013\Projects\parle\parle\parle.vcxproj" (Build destinos).
 
 Compilación correcta.
 
-Tiempo transcurrido 00:00:09.54
+Tiempo transcurrido 00:00:31.10

@@ -49,7 +49,6 @@ namespace hemi {
           isHostValid(false),
           isDeviceValid(false) 
         {
-            allocateHost();
         }
 
         // Use a pre-allocated host pointer (use carefully!)
@@ -83,7 +82,6 @@ namespace hemi {
                 deallocateHost();
                 deallocateDevice();
                 nSize = n;
-                allocateHost();
             }
             memcpy(writeOnlyHostPtr(), other, nSize * sizeof(T));
         }
@@ -102,7 +100,6 @@ namespace hemi {
                 deallocateHost();
                 deallocateDevice();
                 nSize = n;
-                allocateDevice();
             }
             checkCuda( cudaMemcpy(writeOnlyDevicePtr(), other, 
                                   nSize * sizeof(T), cudaMemcpyDeviceToDevice) );
@@ -127,17 +124,20 @@ namespace hemi {
 
         T* hostPtr()
         {
-            assert(isHostAlloced);
             if (isDeviceValid && !isHostValid) copyDeviceToHost();
+            else if (!isHostAlloced) allocateHost();
             else assert(isHostValid);
             isDeviceValid = false;
+            isHostValid   = true;
             return hPtr;
         }
 
         T* devicePtr()
         {
             if (!isDeviceValid && isHostValid) copyHostToDevice();
+            else if (!isDeviceAlloced) allocateDevice();
             else assert(isDeviceValid);
+            isDeviceValid = true;
             isHostValid = false;
             return dPtr;
         }
@@ -174,7 +174,7 @@ namespace hemi {
 
         T* writeOnlyHostPtr()
         {
-            assert(isHostAlloced);
+            if (!isHostAlloced) allocateHost();
             isDeviceValid = false;
             isHostValid   = true;
             return hPtr;
@@ -182,7 +182,6 @@ namespace hemi {
 
         T* writeOnlyDevicePtr()
         {
-            assert(isHostAlloced);
             if (!isDeviceAlloced) allocateDevice();
             isDeviceValid = true;
             isHostValid   = false;
@@ -208,7 +207,6 @@ namespace hemi {
         void allocateHost() const
         {
             assert(!isHostAlloced);
-            assert(!isDeviceAlloced);
 #ifndef HEMI_CUDA_DISABLE
             if (isPinned)
                 checkCuda( cudaHostAlloc((void**)&hPtr, nSize * sizeof(T), 0));
@@ -217,6 +215,7 @@ namespace hemi {
                 hPtr = new T[nSize];    
                 
             isHostAlloced = true;
+            isHostValid = false;
 
         }
         
@@ -226,11 +225,13 @@ namespace hemi {
             assert(!isDeviceAlloced);
             checkCuda( cudaMalloc((void**)&dPtr, nSize * sizeof(T)) );
             isDeviceAlloced = true;
+            isDeviceValid = false;
 #endif
         }
 
         void deallocateHost()
         {
+            assert(!isForeignHostPtr);
             if (isHostAlloced) {
 #ifndef HEMI_CUDA_DISABLE
                 if (isPinned)
@@ -271,7 +272,8 @@ namespace hemi {
         void copyDeviceToHost() const
         {
 #ifndef HEMI_CUDA_DISABLE
-            assert(isDeviceAlloced && isHostAlloced);
+            assert(isDeviceAlloced);
+            if (!isHostAlloced) allocateHost();
             checkCuda( cudaMemcpy(hPtr, 
                                   dPtr, 
                                   nSize * sizeof(T), 
